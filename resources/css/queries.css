@@ -1,0 +1,95 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%; }
+    
+    .row { 
+        padding: 0 2%;
+        width: 99.9% }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    .long-copy { width: 80%; margin-left: 10%;}
+    .steps-box:last-child {margin-top: 10px;}
+    .works-step:last-of-type { margin-bottom: 60px;}
+    .app-screen { width: 40%;}
+    .icon-small { width: 17px; margin-right: 2px;}
+    .city-features {font-size: 90%;}
+    .plan-box { width:98%; margin-left: 0;}
+    .plan-price {font-size: 250%;}
+    .contact-form { width: 90%;}
+    .footer-nav li { margin-right: 5px;}
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body {font-size: 16px; }
+    section { padding: 30px 0; }
+    .hero-text-box, 
+    .row { padding: 0 4%; }
+    .col { 
+        width: 100%; 
+        margin: 0 0 4% 0; }
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    /*for debug*/
+    .main-nav { display: none; }
+    
+    .mobile-nav-icon{ display: inline-block}
+    .main-nav { 
+        float: left;
+        margin-top: 35px;
+        margin-bottom: 25px;
+        margin-left: 40px;
+        
+    }
+    .main-nav li {display: block;}
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 10px;
+        font-size: 100%;
+        letter-spacing: 2px;
+    }
+    
+    .sticky .main-nav{ margin-top: 15px;}
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{ padding: 10px;}
+    .sticky .mobile-nav-icon {margin-top: 15px; }
+    .sticky .mobile-nav-icon i {color: #555; }
+   
+    .long-copy { width: 100%; margin-left: 0%; }
+    .steps-box:last-child {margin-top: 20px;}
+    .works-step:last-of-type { margin-bottom: 40px;}
+    .works-step{ margin-bottom: 30px; }
+    .works-step div{
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 5px; 
+        font-size: 120%; }
+    .steps-box:first-child {text-align: center; margin-top: 10px;}
+    .app-screen { width: 35%;}
+    .col { margin: 0 0 4% 0; }
+    
+}
+    
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    section { padding: 25px 0; }
+    .app-screen { width: 40%;}
+    
+    
+}
